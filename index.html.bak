@@ -1,0 +1,49 @@
+
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><script>
+</script>
+	<title>BLASTGANG</title>
+	<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+	<link href="animate.css" rel="stylesheet" />
+	<link href="favicon.ico" rel="icon" type="image/ico" />
+	<script src="title.js" tppabs="./title.js"></script>
+</head>
+<body>
+<div class="animated fadeInDown">
+<video playsinline autoplay loop id="bgvid">
+		<source src="a.mp4#t=8" type="video/mp4">
+		<script>
+        var video = document.currentScript.parentElement;
+        video.volume = 0.25;
+        </script>
+    </video>
+</div>
+
+<div class="outer">
+<header class="middle">
+<center>
+<div class="animated fadeIn">
+<div class="slashed">
+<div class="top" data-text="BLASTGANG"></div>
+
+<div class="bot" data-text="BLASTGANG"></div>
+</div>
+</div>
+</center>
+</header>
+</div>
+
+<div class="outer-text">
+<header class="middle-text">
+<div class="animated fadeInUp">
+<center>
+<p><font size="5"><a href="http://steamcommunity.com/profiles/76561198041296417" target="_blank">Swibby</a><br />
+<a href="http://steamcommunity.com/profiles/76561198065581366" target="_blank">Efthalia</a><br />
+<a href="http://steamcommunity.com/profiles/76561198027958403" target="_blank">tree</a><br />
+<a href="http://steamcommunity.com/profiles/76561197984512147" target="_blank">Clarence</a><br />
+</center>
+</div>
+</header>
+</div>
+</body>
+</html>

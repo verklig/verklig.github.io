@@ -1,0 +1,119 @@
+/*
+Made by Devoti :^)
+*/
+
+body {
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-family: monospace;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px rgba(8,230,255,100), -1px -1px 0px rgba(255,0,0,100);
+}
+pre {
+    text-align: center;
+    font-family: monospace;
+}
+#center {               
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+}
+#marquee {
+    width: 400px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: -3px;
+}
+ video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 135%;
+    min-height: 110%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+		overflow: hidden;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+ 	}
+    
+    @import url(https://fonts.googleapis.com/css?family=Changa+One&effect=anaglyph);
+  * {
+		margin: 0;
+		padding: 0;
+		background: rgb(203, 203, 203);
+	}
+	p.font-effect-anaglyph {
+		font-family: 'Changa One', cursive;
+		font-size: 50px;
+		text-align: center;
+		letter-spacing: 3px;
+		color: rgba(33, 64, 83, 0.9);
+	}
+	a {
+		text-decoration: none;
+		color: rgb(34, 38, 60);
+		background: #999;
+		padding: 0 13px;
+	}	
+	.wrap {
+		display: table;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.container {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	*:first-child+html .container {
+		position: absolute;
+		top: 50%;
+	}
+	* html .container {
+		position: absolute;
+		top: 50%;
+	}
+	*:first-child+html .content {
+		position: relative;
+		top: 50%;
+	}
+	* html .content {
+		position: relative;
+		top: 50%;
+	}
+	html, body {
+		height: 100%;
+	}
+	.wrap {
+		height: 100%;
+		width: 980px;
+	}
